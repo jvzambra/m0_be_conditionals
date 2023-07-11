@@ -100,15 +100,20 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
+# true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
+# false
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
+# true
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age < 1
+# false
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The final line was false because dogs are considered adults at age 1, so the dog is not a puppy. Otherwise the answer would be nil as the age of what makes a puppy is not defined.
