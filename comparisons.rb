@@ -60,20 +60,24 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# Is the integer 4 less than the integer 9? This is true as 4 is numerically less than 9.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# Is the integer 4 less than the integer 3, which is equal to the number of books? This is false as 4 is numerically more than 3.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# Is the number of the variable of friends, equal to 6, greater than the number of the variable of siblings, equal to 2? This is true as 6 is numerically greater than 2.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+# Is the number of the variable of attendees, equal to 9, not equal to the number of the variable of meals, equal to 8? This is true as 9 numerically does not equal 8.
 
 
 #-------------------
